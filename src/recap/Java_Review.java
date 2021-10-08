@@ -168,20 +168,6 @@ public class Java_Review {
 			System.out.println();
 		}
 
-//				for(int i=0;i<a;i++) {
-//					
-//					for(int j=a-i;j>0;j--) {
-//						
-//						System.out.print(" ");
-//					}
-//					
-//					for(int j=0;j<i;j++) {
-//						
-//						System.out.print("* ");
-//					}
-//					
-//					System.out.println();
-//				}
 
 		for (int i = 0; i < a; i++) {
 
@@ -198,20 +184,6 @@ public class Java_Review {
 			System.out.println();
 		}
 
-//				for(int i=a;i>0;i--) {
-//					
-//					for(int j=0;j<a-i;j++) {
-//						
-//						System.out.print(" ");
-//					}
-//					
-//					for(int j=0;j<i;j++) {
-//						
-//						System.out.print("* ");
-//					}
-//					
-//					System.out.println();
-//				}
 
 		for (int i = a; i > 0; i--) {
 
@@ -228,19 +200,7 @@ public class Java_Review {
 			System.out.println();
 		}
 
-//				for(int i=0;i<a;i++) {
-//					
-//					for(int j=0;j<2*(a-i);j++) {
-//						
-//						System.out.print(" ");
-//					}
-//					for(int j=0;j<i;j++) {
-//						
-//						System.out.print("* ");
-//					}
-//					
-//					System.out.println();
-//				}
+			}
 
 		for (int i = 0; i < a; i++) {
 
@@ -257,23 +217,6 @@ public class Java_Review {
 			System.out.println();
 
 		}
-		
-		
-		
-//		for (int i = a; i > 0; i--) {
-//
-//			for (int j = 0; j < 2 * (a - i); j++) {
-//
-//				System.out.print(" ");
-//			}
-//			for (int j = 0; j < i; j++) {
-//
-//				System.out.print("* ");
-//			}
-//
-//			System.out.println();
-//		}
-
 		
 		for(int i=a;i>0;i--) {
 			
@@ -300,9 +243,7 @@ public class Java_Review {
 
 			System.out.println();
 		}
-		
-		
-		
+	
 		return a;
 	}
 
@@ -399,10 +340,6 @@ public class Java_Review {
 	}
 	
 	
-		
-		
-	
-
 	public static void main(String[] args) {
 
 		Java_Review obj = new Java_Review();
