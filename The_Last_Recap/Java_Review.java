@@ -371,6 +371,37 @@ public class Java_Review {
 		System.out.println("The " + capitol + " of " + country + " .");
 		return country;
 	}
+	
+	
+	public String palidrome(String str) {
+		
+		String reverse="";
+		
+		
+		for(int i=str.length()-1;i>=0;i--) {
+			
+			char ch=str.charAt(i);
+			
+			reverse=reverse+ch;
+			
+		}
+			
+			if(reverse.equalsIgnoreCase(str)) {
+				
+				System.out.println(str+" is a palidrome");
+				
+			}else {
+				
+				System.out.println(str+" is not a palidrome.");
+			}
+		
+		return str;
+	}
+	
+	
+		
+		
+	
 
 	public static void main(String[] args) {
 
@@ -381,6 +412,7 @@ public class Java_Review {
 		obj.print_star_pattern(6);
 		obj.display(0);
 		obj.countries("USA");
+		obj.palidrome("Dod");
 
 	}
 
