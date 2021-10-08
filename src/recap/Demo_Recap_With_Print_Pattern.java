@@ -1,4 +1,4 @@
-package The_Last_Recap;
+package recap;
 
 public class Demo_Recap_With_Print_Pattern {
 	
