@@ -7,7 +7,7 @@ public class Demo_Animal {
 
 	public static void main(String[] args) {
 
-		//We can access a parent class' constructor from another class within different package only if it is a public constructor. 
+		//We can access a parent class' constructor from another class within different package only if it is a public constructo. 
 		Animal obj=new Animal("Elefant",4,"trumpet");
 		obj.display_animal();
 		
