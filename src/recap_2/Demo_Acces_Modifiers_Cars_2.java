@@ -7,7 +7,7 @@ public class Demo_Acces_Modifiers_Cars_2 extends Acces_Modifiers_Cars_2{
 	public static void main(String[] args) {
 
 
-		Acces_Modifiers_Cars obj=new Acces_Modifiers_Cars_2();
+		Acces_Modifiers_Cars_2 obj=new Acces_Modifiers_Cars_2();
 		
 		obj.make="Toyota";
 		obj.model="Sienna";
