@@ -1,15 +1,15 @@
 package recap;
 
-public class Acces_Modifiers_Cars_3 {
+  public class Acces_Modifiers_Cars_3 {
 
-	String make;
-	String model;
-	static int mileage;
-	static int door_size;
-	int year;
-	String color;
+	 protected String make;
+     protected String model;
+     protected static int mileage;
+     protected static int door_size;
+     protected int year;
+     protected String color;
 
-	void explain_car() {
+     protected  void explain_car() {
 
 		System.out.println("My car is " + year + " model " + make + " " + model + " and it has " + mileage
 				+ " mileages ,and " + door_size + " doors ,and its color is " + color + ".");

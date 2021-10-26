@@ -170,20 +170,20 @@ public class Java_Review_2 {
 		return str;
 	}
 
-	protected String reverse_with_charAt(String str) {
+	protected String reverse_with_charAt(String str, char ch) {
 
 		String reverse_2 = "";
 
 		for (int i = str.length() - 1; i >= 0; i--) {
 
-			char ch = str.charAt(i);
+			ch = str.charAt(i);
 
 			reverse_2 = reverse_2 + ch;
 		}
 
 		System.out.println("The lenght of String = " + str.length());
 		System.out.println("The orjinal String = " + str);
-		System.out.println("The reverse of the String = " + reverse_2);
+		System.out.println("The reverse of the String with charAt(index)= " + reverse_2);
 		System.out.println("Is the lenght of reversed String = " + reverse_2.length());
 
 		return str;
@@ -338,4 +338,70 @@ public class Java_Review_2 {
 		}
 		return a;
 	}
+
+	protected String palidrome_substring(String str, String reverse) {
+
+		for (int i = str.length(); i > 0; i--) {
+
+			reverse = reverse + str.substring(i - 1, i);
+		}
+
+		if (str.equalsIgnoreCase(reverse)) {
+
+			System.out.println("The String is a palidrome.");
+		} else {
+
+			System.out.println("The String is not a palidrome.");
+		}
+
+		return reverse;
+
+	}
+	
+	public String palidrome_split(String str,String reverse) {
+		
+		String []array=str.split("");
+		
+		for(int i=array.length-1;i>=0;i--) {
+			
+			reverse=reverse+array[i];
+		}
+		
+		if (str.equalsIgnoreCase(reverse)) {
+
+			System.out.println("The String is a palidrome.");
+		} else {
+
+			System.out.println("The String is not a palidrome.");
+		}
+		
+		
+		
+		return str;
+	}
+	
+ public String palidrome_CharArray(String str,String reverse) {
+		
+
+          char []ch=str.toCharArray();
+		
+		for(int i=ch.length-1;i>=0;i--) {
+			
+			reverse=reverse+ch[i];
+		}
+		
+		if (str.equalsIgnoreCase(reverse)) {
+
+			System.out.println("The String is a palidrome.");
+		} else {
+
+			System.out.println("The String is not a palidrome.");
+		}
+		
+		
+		
+		return str;
+	
+}
+ 
 }

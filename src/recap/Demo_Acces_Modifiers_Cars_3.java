@@ -4,6 +4,7 @@ public class Demo_Acces_Modifiers_Cars_3 {
 
 	public static void main(String[] args) {
      //All variables and method are default.
+		
 		Acces_Modifiers_Cars_3 obj=new Acces_Modifiers_Cars_3();
 		
 		obj.color="Purple";

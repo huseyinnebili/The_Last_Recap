@@ -19,12 +19,15 @@ public class Demo_Java_Review_2 extends Java_Review_2{
 		obj.odd_num(0);
 		obj.manipulation("Today is CoDing day","Today is coding day");
 		obj.reverse_with_split("Today is coding day");
-		obj.reverse_with_charAt("Today is coding day");
+		obj.reverse_with_charAt("Today is coding day",' ');
 		obj.reverse_with_toCharArray("Today is coding day");
 		obj.reverse_with_substring("Today is coding day");
 		obj.convert_String("");
 		obj.convert_String_2("");
 		obj.print_pattern_star(6);
+		obj.palidrome_substring("Dod", "");
+		obj.palidrome_split("Mom", "");
+		obj.palidrome_CharArray("PoPp","");
 		
 		
 		
