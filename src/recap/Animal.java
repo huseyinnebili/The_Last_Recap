@@ -55,7 +55,7 @@ class Cat extends Animal {
 		System.out.println(
 				species + " is a animal,and it has " + foot_num + " ,and can " + sound + ", and eats " + food + ".");
 		System.out.println("Can a cat breed?True/False");
-		System.out.println(breed);
+		System.out.println(breed)
 	}
 
 }
