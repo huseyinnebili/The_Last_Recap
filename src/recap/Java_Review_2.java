@@ -67,7 +67,7 @@ public class Java_Review_2 {
 
 	protected int[] prime_num(int prime) {
 
-		int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 10, 11, 12, 13, 14, 15, 16, 17 };
+		int[] nums = { 121, 20, 34, 44, 55, 6, 7, 8, 9, 0, 10, 11, 12, 13, 14, 15, 16, 17 };
 
 		System.out.print("The prime numbers of the array list = ");
 
@@ -80,7 +80,7 @@ public class Java_Review_2 {
 				continue;
 			}
 
-			for (int j = 2; j < i; j++) {
+			for (int j = 2; j < nums[i]/2; j++) {
 
 				if (nums[i] % j == 0) {
 
