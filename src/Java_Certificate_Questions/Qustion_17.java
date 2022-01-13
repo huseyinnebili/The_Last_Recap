@@ -32,7 +32,7 @@ public class Qustion_17 {
 
 	   System.out.println(obj);
 
-		System.out.println(x + " : " + y);
+		System.out.println(x + " : " + y)
 
 	}
 
