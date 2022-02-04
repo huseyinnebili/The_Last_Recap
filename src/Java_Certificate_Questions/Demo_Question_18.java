@@ -1,6 +1,6 @@
 package Java_Certificate_Questions;
 
-public class Demo_Question_18 {
+public class Demo_Question_18 
 
 	public static void main(String[] args) {
 
