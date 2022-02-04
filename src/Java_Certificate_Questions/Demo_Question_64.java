@@ -1,0 +1,14 @@
+package Java_Certificate_Questions;
+
+public class Demo_Question_64 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		System.out.println("Hello "+new StringBuilder("Java SE 8"));
+		System.out.println("Hello "+new Question_64("Java SE 8"));
+
+	}
+
+}

@@ -6,17 +6,19 @@ public class Question_20 {
 	int a;
 	String s;
 
-	public static void doProduct(int a) {
+	public static int doProduct(int a) {
 
 		a = a * a;
 
+		return a;
 		//System.out.println(a);
 	}
 
-	public static void doString(String s) {
+	public static String doString(String s) {
 
 		s.concat(" " + s);
 
+		return s;
 		//System.out.println(s);
 	}
 
@@ -35,13 +37,13 @@ public class Question_20 {
 		item.a=5;
 		item.s="Java";
 
-		doProduct(i);
-		doString(sb);
-		doProduct(item.a1);
+	System.out.println(	doProduct(i));
+	System.out.println(	doString(sb));
+	System.out.println( doProduct(item.a1));
 
-		//System.out.println(item);
+	System.out.println(item);
 
-		System.out.println(i + " " + sb + " " + item.a1);
+	System.out.println(i + " " + sb + " " + item.a1);
 
 	}
 

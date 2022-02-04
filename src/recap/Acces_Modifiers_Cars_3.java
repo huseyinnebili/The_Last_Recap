@@ -1,18 +1,20 @@
 package recap;
 
-  public class Acces_Modifiers_Cars_3 {
+public class Acces_Modifiers_Cars_3 {
+	
+	
+	//All variables and methods are public.
+	public String make;
+	public String model;
+	public static int mileage;
+	public static int door_size;
+	public int year;
+	public String color;
 
-	 protected String make;
-     protected String model;
-     protected static int mileage;
-     protected static int door_size;
-     protected int year;
-     protected String color;
-
-     protected  void explain_car() {
+	public void explain_car() {
 
 		System.out.println("My car is " + year + " model " + make + " " + model + " and it has " + mileage
-				+ " mileages ,and " + door_size + " doors ,and its color is " + color + ".");
+				+ " mileages ,and " + door_size+" doors ,and its color is "+color+".");
 	}
 
 }

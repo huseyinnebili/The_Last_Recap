@@ -8,7 +8,7 @@ public class Qustion_17 {
 
 		initialize(x, y);
 
-		 System.out.println(this.x + " : " + this.y);
+		// System.out.println(this.x + " : " + this.y);
 
 	}
 
@@ -30,9 +30,9 @@ public class Qustion_17 {
 
 		Qustion_17 obj = new Qustion_17(x, y);
 
-	   System.out.println(obj);
+		System.out.println(obj);
 
-		System.out.println(x + " : " + y)
+		System.out.println(x + " : " + y);
 
 	}
 

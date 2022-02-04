@@ -197,7 +197,7 @@ public class Review_All_Topics {
 		
 		for(int i=0;i<a;i++  ) {
 			
-			for(int j=2*(a-i);j>0;j--) {
+			for(int j=2*(a-i);j>=0;j--) {
 				
 				System.out.print(" ");
 			}
@@ -213,7 +213,7 @@ public class Review_All_Topics {
 		for(int i=a;i>0;i--) {
 			
 			
-			for(int j=2*(a-i);j>0;j--) {
+			for(int j=2*(a-i);j>=0;j--) {
 				
 				System.out.print(" ");
 			}
@@ -230,7 +230,7 @@ public class Review_All_Topics {
 		
 		for(int i =0;i<a;i++) {
 			
-			for(int j=a-i; j>0;j--) {
+			for(int j=a-i; j>=0;j--) {
 				
 				System.out.print(" ");
 			}
@@ -245,7 +245,7 @@ public class Review_All_Topics {
 			
 		for(int i=a;i>0;i--) {
 			
-			for(int j=a-i;j>0;j--) {
+			for(int j=a-i;j>=0;j--) {
 				
 				System.out.print(" ");
 			}

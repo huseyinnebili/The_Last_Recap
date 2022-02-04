@@ -6,7 +6,7 @@ public class Question_23 {
 
 		char colorCode = 'r';
 		
-		//int color = 0;
+		//int color=0;
 
 		switch (colorCode) {
 

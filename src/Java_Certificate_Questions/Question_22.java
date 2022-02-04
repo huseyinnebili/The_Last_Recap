@@ -2,7 +2,7 @@ package Java_Certificate_Questions;
 
 public class Question_22 {
 
-	
+
 
 	public static void main(String[] args) {
 
